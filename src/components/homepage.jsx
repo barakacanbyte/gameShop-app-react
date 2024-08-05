@@ -16,7 +16,7 @@ export default function Homepage() {
       <main>
         <AnimLogo />
         <article>
-          This is a shopping cart. It has mob nice stuff guys please buy hahah.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          This is a shopping cart. It has mob nice stuff guys please buy, fry those dopamines life is short hahah.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Mauris quis magna sit amet nisl pulvinar congue. Proin lacinia nulla eget est dapibus, et accumsan sem blandit.
           Cras ex libero, fermentum sagittis dui quis, convallis eleifend turpis. Maecenas feugiat semper sapien vel ornare.
           Cras aliquam imperdiet nibh in pharetra. Aenean faucibus enim nec dui venenatis, id euismod justo condimentum. Cras ullamcorper aliquam fermentum.
