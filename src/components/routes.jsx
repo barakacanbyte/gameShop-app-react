@@ -10,7 +10,7 @@ import MainShop from "./mainShop.jsx";
 const routes = [
   {
     path: '/',
-    element: <Homepage />,
+    element: <homepage />,
     errorElement: <ErrorPage />,
   },
   {
