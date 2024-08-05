@@ -9,7 +9,7 @@ import MainShop from "./mainShop.jsx";
 
 const routes = [
   {
-    path: '/',
+    path: '/gameShop-app-react/',
     element: <Homepage />,
     errorElement: <ErrorPage />,
   },
