@@ -9,11 +9,7 @@ import MainShop from "./mainShop.jsx";
 
 const routes = [
   {
-<<<<<<< HEAD
-    path: "/gameShop-app-react/",
-=======
-    path: '/',
->>>>>>> origin/master
+    path: '/gameShop-app-react/',
     element: <Homepage />,
     errorElement: <ErrorPage />,
   },
@@ -49,7 +45,7 @@ const routes = [
 ];
 
 const router = createBrowserRouter(routes, {
-  basename: '/',
+  basename: "/",
 });
 
 export default router;
