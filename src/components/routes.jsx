@@ -9,39 +9,39 @@ import MainShop from "./mainShop.jsx";
 
 const routes = [
   {
-    path: '/',
-    element: <homepage />,
+    path: "/gameShop-app-react/",
+    element: <Homepage />,
     errorElement: <ErrorPage />,
   },
   {
-    path: 'shop',
+    path: "shop",
     element: <Shop />,
     errorElement: <ErrorPage />,
     children: [
       {
         index: true,
-        element: <Navigate to='games' />
+        element: <Navigate to="games" />,
       },
       {
-        path: 'games',
+        path: "games",
         element: <MainShop />,
         children: [
           {
             index: true,
-            element: <Navigate to='p' />,
+            element: <Navigate to="p" />,
           },
           {
-            path: ':gamesId',
-            element: <Games />
-          }
-        ]
+            path: ":gamesId",
+            element: <Games />,
+          },
+        ],
       },
       {
-        path: 'game/:gameId',
-        element: <Game />
-      }
-    ]
-  }
+        path: "game/:gameId",
+        element: <Game />,
+      },
+    ],
+  },
 ];
 
 const router = createBrowserRouter(routes, {
